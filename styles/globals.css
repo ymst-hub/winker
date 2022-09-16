@@ -22,6 +22,8 @@ body, h1, p, figure, ul{
 /* styles */
 main {
   padding-top: 3em;
+  width: 94%;
+  margin: auto;
 }
 body {
     background-color: var(--background-color);
@@ -41,5 +43,5 @@ button:hover{
   background-color: #005CAF;
 }
 li {
-  padding: 0.5em 1em;
+  padding: 0.8em 0em;
 }
