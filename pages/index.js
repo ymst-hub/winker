@@ -28,11 +28,11 @@ export default function Home() {
 function Button({ name, url }) {
   return (
     <li>
+      <a href={url}>
       <button>
-        <a href={url}>
           {name}
-        </a>
       </button>
+      </a>
     </li>
   )
 }

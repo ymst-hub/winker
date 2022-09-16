@@ -27,20 +27,18 @@ body {
     background-color: var(--background-color);
 }
 
-a {
-  color: var(--text-color);
-  text-decoration: none;
-  box-shadow: none;
-}
-
 button {
   border: none;
   background: transparent;
   box-shadow: none;
+  color: var(--text-color);
   width: 94%;
   height: 3em;
   background-color: var(--button-color);
   border-radius: 1em; 
+}
+button:hover{
+  background-color: #005CAF;
 }
 li {
   padding: 0.5em 1em;
