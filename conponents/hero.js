@@ -5,7 +5,7 @@ export default function Hero() {
         <div className={styles.bottompad}>
             <h1>自己紹介等</h1>
             <p>
-                リンク集のサイトです。<br/>
+                リンク集のサイトです。
                 この下にリンクを配置します
             </p>
         </div>

@@ -1,11 +1,10 @@
-
-import Image from 'next/image'
 import Header from '../conponents/header'
 import Hero from '../conponents/hero'
+import MakeURL from '../lib/qrcode'
 
-const props1 = { name: "Twitter", url: "https://twitter.com/?lang=ja" }
-const props2 = { name: "LINE", url: "https://line.me/ja/" }
-const props3 = { name: "Github", url: "https://github.com/" }
+const props1 = { name: "Twitter", url: 'https://twitter.com/?lang=ja' }
+const props2 = { name: "LINE", url: 'https://line.me/ja/' }
+const props3 = { name: "Github", url: 'https://github.com/' }
 
 
 export default function Home() {
@@ -32,6 +31,7 @@ function Button({ name, url }) {
           {name}
       </button>
       </a>
+      <MakeURL url={url} />
     </li>
   )
 }
